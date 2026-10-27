@@ -1,0 +1,35 @@
+{
+  "file_sha256": {
+    "data/evaluation/day7_quality_v1/final/arc_challenge_test.jsonl": "86ccaace4cd159b5c02b6b3339ebe8a7022a54f1b488e433c060b3bc38ac1f63",
+    "data/evaluation/day7_quality_v1/final/day7_arc_challenge_test_requests.jsonl": "7080ea343891722f9175ed13840ff264d562e2fcb9d1dbd38fb45c266bf977f4",
+    "data/evaluation/day7_quality_v1/final/day7_gsm8k_test_requests.jsonl": "0819d60210c6c93be415afd0d51f4709e8a7bdcb7fdb093e605daaa22ff1c880",
+    "data/evaluation/day7_quality_v1/final/gsm8k_test.jsonl": "51b901a6559b123df91167acbe3ed6d6d5d404ee6fa0773a4da19fd9d44c767a",
+    "data/evaluation/day7_quality_v1/final/tasks/day7_arc_challenge_test.yaml": "4dec216df4423845ab18c270a2460d9e05ccd32610c89d8f6f77a22c63172923",
+    "data/evaluation/day7_quality_v1/final/tasks/day7_gsm8k_test.yaml": "4e3b23d757d346c29edcc43feae644140723bd6c785fb468bf85459c2e5fd526",
+    "data/evaluation/day7_sources/raw/arc_challenge/ARC-Challenge/test-00000-of-00001.parquet": "62f03257e737aed263f55c6abf87c7bb0028a44a6bdd2a26eb1279eb42c1d1e9",
+    "data/evaluation/day7_sources/raw/gsm8k/main/test-00000-of-00001.parquet": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+    "scripts/prepare_day7_final.py": "e00beb789673160f7f8528c1e2c5e9246ece0ed1a5781057abf1a7164a1bc928"
+  },
+  "final_plan_sha256": "1bd1f014f7409f32e93347cbd25e39eca79a782a614acd0234a5ed7c003e4558",
+  "model_inference_performed": false,
+  "models": 10,
+  "study": "day7_final_quality_v1",
+  "tasks": {
+    "day7_arc_challenge_test": {
+      "api_requests": 4687,
+      "config_path": "data/evaluation/day7_quality_v1/final/tasks/day7_arc_challenge_test.yaml",
+      "dataset": "arc_challenge",
+      "max_input_plus_output_budget": 179,
+      "questions": 1172,
+      "requests_path": "data/evaluation/day7_quality_v1/final/day7_arc_challenge_test_requests.jsonl"
+    },
+    "day7_gsm8k_test": {
+      "api_requests": 1319,
+      "config_path": "data/evaluation/day7_quality_v1/final/tasks/day7_gsm8k_test.yaml",
+      "dataset": "gsm8k",
+      "max_input_plus_output_budget": 3185,
+      "questions": 1319,
+      "requests_path": "data/evaluation/day7_quality_v1/final/day7_gsm8k_test_requests.jsonl"
+    }
+  }
+}

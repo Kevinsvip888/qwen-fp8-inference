@@ -1,0 +1,17 @@
+{
+  "lm_eval_version": "0.4.13",
+  "files": {
+    "gsm8k/gsm8k.yaml": {
+      "sha256": "82eb1780b263bc040729032b3e076990c7933f42163c91e359f38820dd1d8833",
+      "path": "data/evaluation/day7_sources/task_defaults/gsm8k/gsm8k.yaml"
+    },
+    "arc/arc_challenge.yaml": {
+      "sha256": "682621c26ae24b1065a2d732460a55a8ef2b9f2544574431666c9309a9efd7bd",
+      "path": "data/evaluation/day7_sources/task_defaults/arc/arc_challenge.yaml"
+    },
+    "arc/arc_easy.yaml": {
+      "sha256": "96da1d9efe1df88659481cedc13985cb347dc068554a2eae561303fa39bfab3f",
+      "path": "data/evaluation/day7_sources/task_defaults/arc/arc_easy.yaml"
+    }
+  }
+}

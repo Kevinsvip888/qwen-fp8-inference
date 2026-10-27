@@ -1,0 +1,26 @@
+{
+  "attention_backend": "FLASH_ATTN",
+  "environment_sha256": "d8242ac285faa08b7b2a17ad211d644bd6e5a006c4a6e19401f2a1b195460199",
+  "fp8_manifest_sha256": "6488c60ab30ff9f7750b68c8eb38fad20164c005c8f84a4e800906acd99115d4",
+  "generation_seed": 42,
+  "gpu_uuid": "GPU-da0e682c-68a8-c840-d8a7-81e529a186b6",
+  "ignore_eos": true,
+  "kv_cache_bytes": 4294967296,
+  "kv_cache_dtype": "bfloat16",
+  "output_tokens": 128,
+  "packages": {
+    "torch": "2.13.0+cu132",
+    "transformers": "5.19.0",
+    "vllm": "0.32.0"
+  },
+  "prefix_caching": false,
+  "requests": 200,
+  "runner_script_sha256": "d6a27bb58e1911dd5fa98ce9a429db4afbd91b8f0523ef406a1b2dddb4a98d4d",
+  "server_script_sha256": "06cea1024de40f07374105e55a3626c7a693f7a75f16a300e9a61259ee895bdc",
+  "source_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "study": "day5_formal_v1",
+  "temperature": 0,
+  "top_p": 1,
+  "warmup_requests": 20,
+  "workload_seed": 42
+}

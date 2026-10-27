@@ -1,0 +1,315 @@
+{
+  "approximate_question_bootstrap_95_interval_pp": [
+    -1.171875,
+    0.78125
+  ],
+  "bf16_reference": {
+    "accuracy_percent": 93.359375,
+    "correct": 239,
+    "pool_seed_folder": 42
+  },
+  "bootstrap_definition": {
+    "resamples": 20000,
+    "scope": "conditional on the three observed calibration pools",
+    "seed": 2026,
+    "unit": "question, retaining all three pools together"
+  },
+  "distinct_questions": 256,
+  "evaluation_manifest_sha256": "6b6798e015d3698f4dd1e6fe8df21cd4f4b047b3bec9339bcac30e0695604c4d",
+  "feature_forward_statistics_seconds_by_seed": [
+    25.958025339990854,
+    25.631897397339344,
+    25.86746447905898
+  ],
+  "input_hashes": {
+    "seed42/BF16": {
+      "run_manifest_sha256": "e6402f4b0baa23968275874bb72bf356fb1fb09d371d5d5af0201d4a55101f9d",
+      "summary_sha256": "0b831094805d389f1fd8b2e3508d610c09f3df38e67d98c85ad2313fccd67d0c"
+    },
+    "seed42/Random128": {
+      "run_manifest_sha256": "61e50c5023abc900de81f31cafc9a695a65365bab8b7c1a319f0a7288a76f4ba",
+      "summary_sha256": "396bdc0d4606e45b262f8c39273852af60c6468b4f3df796b370cc99841cd52c"
+    },
+    "seed42/Random32": {
+      "run_manifest_sha256": "330ca20090fac0996a11374b8880763191e3c3215a41e9209116ee01c46b219e",
+      "summary_sha256": "ddfdf3b2be81884127ebf22593d2c289ab568c431e517c4c71edec328441217b"
+    },
+    "seed42/Selected32": {
+      "run_manifest_sha256": "8a09568ba426c92d0800a5021f120f1f2331d28d4a437ab60ab2d77e9385601d",
+      "summary_sha256": "b6df912a73f9e6e25cf09648c42358985b7e392517b041bb8c51f0805648b390"
+    },
+    "seed43/Random128": {
+      "run_manifest_sha256": "6c1b57466422437f4f6a21e3a86ec11b191ca5d82a4fa44fe95dfda751184417",
+      "summary_sha256": "e8587e02167cf04aab66527c969457b8029fa3ce26335b4918a73ae588c55617"
+    },
+    "seed43/Random32": {
+      "run_manifest_sha256": "a4d55a3ba552bdbe8deb59951efce68a51ed5a3af5cf2a1d1cd9bbe8d24c3c00",
+      "summary_sha256": "aad8e0a8690c639bbb253bf7ec1e80314cac32e49bffaa8a09091d539e434fdb"
+    },
+    "seed43/Selected32": {
+      "run_manifest_sha256": "efe16dc4f2fa12d65bee5156170e530260148d235dcb3cfa9f145da10fc57341",
+      "summary_sha256": "ad707da41e3777419638b8bdc4bbe526b8e9fd76cbfd47f8a148baf190c0244d"
+    },
+    "seed44/Random128": {
+      "run_manifest_sha256": "a8df3637f7b41d06e1665d6a573072d064e115d2ae61eb9452bd1fe997af7b1c",
+      "summary_sha256": "fbc0928829d6c15e16ead3a517d02271de4cd39e9d57f4f719deaa6a9cf205ea"
+    },
+    "seed44/Random32": {
+      "run_manifest_sha256": "9bf70961c2a06ad037f58c13f722797e1048dd1258ce57c1f3bd52a1d6a56772",
+      "summary_sha256": "6ba533363e903b7148c0e2a90c4bf1d69c4f6a32ab201cca000868a17b703211"
+    },
+    "seed44/Selected32": {
+      "run_manifest_sha256": "213205caed6aee55b534a8063a0f8f41ad274c3f9fec285146772eafe3fe1dff",
+      "summary_sha256": "b6f1120256d45789720e4dbeb120266efe34352630605887577e4bd44f0cdf0d"
+    }
+  },
+  "mean_feature_forward_statistics_seconds": 25.819129072129726,
+  "method_metrics": {
+    "Random128": {
+      "accuracy_percent_by_seed": [
+        94.140625,
+        93.359375,
+        92.578125
+      ],
+      "correct_by_seed": [
+        241,
+        239,
+        237
+      ],
+      "descriptive_seed_sd_pp": 0.78125,
+      "length_finishes_by_seed": [
+        1,
+        1,
+        4
+      ],
+      "mean_accuracy_percent": 93.359375,
+      "mean_modelopt_quantize_seconds": 22.10631539175908,
+      "mean_safetensors_GiB": 4.108732931315899,
+      "parse_failures_by_seed": [
+        2,
+        3,
+        5
+      ]
+    },
+    "Random32": {
+      "accuracy_percent_by_seed": [
+        94.140625,
+        93.359375,
+        94.140625
+      ],
+      "correct_by_seed": [
+        241,
+        239,
+        241
+      ],
+      "descriptive_seed_sd_pp": 0.4510548978043951,
+      "length_finishes_by_seed": [
+        0,
+        1,
+        2
+      ],
+      "mean_accuracy_percent": 93.88020833333333,
+      "mean_modelopt_quantize_seconds": 7.087030588338773,
+      "mean_safetensors_GiB": 4.108732931315899,
+      "parse_failures_by_seed": [
+        2,
+        4,
+        3
+      ]
+    },
+    "Selected32": {
+      "accuracy_percent_by_seed": [
+        92.578125,
+        95.3125,
+        93.359375
+      ],
+      "correct_by_seed": [
+        237,
+        244,
+        239
+      ],
+      "descriptive_seed_sd_pp": 1.4084184669781208,
+      "length_finishes_by_seed": [
+        3,
+        0,
+        2
+      ],
+      "mean_accuracy_percent": 93.75,
+      "mean_modelopt_quantize_seconds": 7.05298384775718,
+      "mean_safetensors_GiB": 4.108732931315899,
+      "parse_failures_by_seed": [
+        5,
+        1,
+        4
+      ]
+    }
+  },
+  "numpy_version": "2.3.5",
+  "per_seed_primary_comparisons": [
+    {
+      "descriptive_exact_mcnemar_p": 0.2890625,
+      "difference_pp": -1.5625,
+      "pool_seed": 42,
+      "random_only_correct": 6,
+      "selected_only_correct": 2
+    },
+    {
+      "descriptive_exact_mcnemar_p": 0.0625,
+      "difference_pp": 1.953125,
+      "pool_seed": 43,
+      "random_only_correct": 0,
+      "selected_only_correct": 5
+    },
+    {
+      "descriptive_exact_mcnemar_p": 0.7265625,
+      "difference_pp": -0.78125,
+      "pool_seed": 44,
+      "random_only_correct": 5,
+      "selected_only_correct": 3
+    }
+  ],
+  "pool_seeds": [
+    42,
+    43,
+    44
+  ],
+  "posthoc_bare_number_diagnostics": [
+    {
+      "diagnostic_number": "10",
+      "id": "gsm8k-train-00785",
+      "last_line": "10",
+      "matches_reference": true,
+      "method": "Random32",
+      "pool_seed": 42,
+      "reference": "10"
+    },
+    {
+      "diagnostic_number": "128",
+      "id": "gsm8k-train-05614",
+      "last_line": "128",
+      "matches_reference": true,
+      "method": "Random32",
+      "pool_seed": 42,
+      "reference": "128"
+    },
+    {
+      "diagnostic_number": "390",
+      "id": "gsm8k-train-03940",
+      "last_line": "390",
+      "matches_reference": true,
+      "method": "Random32",
+      "pool_seed": 43,
+      "reference": "390"
+    },
+    {
+      "diagnostic_number": "768",
+      "id": "gsm8k-train-05614",
+      "last_line": "768",
+      "matches_reference": false,
+      "method": "Random32",
+      "pool_seed": 43,
+      "reference": "128"
+    },
+    {
+      "diagnostic_number": "120",
+      "id": "gsm8k-train-02926",
+      "last_line": "120",
+      "matches_reference": true,
+      "method": "Random32",
+      "pool_seed": 43,
+      "reference": "120"
+    },
+    {
+      "diagnostic_number": "30",
+      "id": "gsm8k-train-06623",
+      "last_line": "30",
+      "matches_reference": true,
+      "method": "Random32",
+      "pool_seed": 44,
+      "reference": "30"
+    },
+    {
+      "diagnostic_number": "390",
+      "id": "gsm8k-train-03940",
+      "last_line": "390",
+      "matches_reference": true,
+      "method": "Selected32",
+      "pool_seed": 42,
+      "reference": "390"
+    },
+    {
+      "diagnostic_number": "28",
+      "id": "gsm8k-train-00995",
+      "last_line": "28",
+      "matches_reference": true,
+      "method": "Selected32",
+      "pool_seed": 42,
+      "reference": "28"
+    },
+    {
+      "diagnostic_number": "120",
+      "id": "gsm8k-train-02926",
+      "last_line": "120",
+      "matches_reference": true,
+      "method": "Selected32",
+      "pool_seed": 43,
+      "reference": "120"
+    },
+    {
+      "diagnostic_number": "390",
+      "id": "gsm8k-train-03940",
+      "last_line": "390",
+      "matches_reference": true,
+      "method": "Selected32",
+      "pool_seed": 44,
+      "reference": "390"
+    },
+    {
+      "diagnostic_number": "50",
+      "id": "gsm8k-train-03989",
+      "last_line": "50",
+      "matches_reference": true,
+      "method": "Selected32",
+      "pool_seed": 44,
+      "reference": "50"
+    },
+    {
+      "diagnostic_number": "50",
+      "id": "gsm8k-train-03989",
+      "last_line": "50",
+      "matches_reference": true,
+      "method": "Random128",
+      "pool_seed": 42,
+      "reference": "50"
+    },
+    {
+      "diagnostic_number": "390",
+      "id": "gsm8k-train-03940",
+      "last_line": "390",
+      "matches_reference": true,
+      "method": "Random128",
+      "pool_seed": 43,
+      "reference": "390"
+    },
+    {
+      "diagnostic_number": "120",
+      "id": "gsm8k-train-02926",
+      "last_line": "120",
+      "matches_reference": true,
+      "method": "Random128",
+      "pool_seed": 43,
+      "reference": "120"
+    },
+    {
+      "diagnostic_number": "390",
+      "id": "gsm8k-train-03940",
+      "last_line": "390",
+      "matches_reference": true,
+      "method": "Random128",
+      "pool_seed": 44,
+      "reference": "390"
+    }
+  ],
+  "primary_mean_difference_pp": -0.13020833333333334,
+  "primary_scores_modified": false
+}

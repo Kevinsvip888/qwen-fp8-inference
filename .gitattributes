@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+# Preserve bytes used by frozen SHA256 checks.
+scripts/** -text
+provenance/original/** -text
+results/** -text
+environment/** -text

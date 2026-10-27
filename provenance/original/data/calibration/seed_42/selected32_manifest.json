@@ -1,0 +1,369 @@
+{
+  "method": "Selected32",
+  "pool_sha256": "2e7617c9373418c024716f768436cb79ad75dbfc48bdf10b25abad340a889241",
+  "features_sha256": "75a4d82ba8804627e11c37102bfd3ad63149e8dbc1a9ec9049e6afc92483a758",
+  "feature_metadata_sha256": "589814a9067b4fdb67efda3ad17c8fb517329af3354bed507439337a18449f11",
+  "numpy_version": "2.5.4",
+  "algorithm": {
+    "normalization": "per-domain feature standardization, ddof=0",
+    "distance": "Euclidean distance in standardized feature space",
+    "initialization": "candidate nearest the domain centroid",
+    "iteration": "maximize distance to nearest selected candidate",
+    "tie_break": "first candidate in lexicographically sorted IDs",
+    "sequences_per_domain": 16
+  },
+  "normalization": {
+    "general": {
+      "mean": [
+        0.038254030092502944,
+        0.0975961685180664,
+        0.09764083052868955,
+        0.29505157470703125,
+        0.1428664367995225,
+        0.37701416015625,
+        0.12038558544008993,
+        0.3956756591796875,
+        0.1514835747075267,
+        0.5342559814453125,
+        0.32203086430672556,
+        1.010528564453125,
+        0.6251521368976682,
+        1.984832763671875,
+        3.104830041527748,
+        7.0328369140625
+      ],
+      "population_std": [
+        0.0014136018517585643,
+        0.005310968257415512,
+        0.002867633977991491,
+        0.008596966829566939,
+        0.004907441671033874,
+        0.006573404154002684,
+        0.0026122117633743127,
+        0.00811387453495089,
+        0.0037808497693529,
+        0.011828612887576384,
+        0.010004106402596361,
+        0.02766689028503539,
+        0.03045240345675552,
+        0.11543501746431253,
+        0.12685095036160904,
+        0.24831463036630272
+      ],
+      "active_dimensions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "constant_threshold": [
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1.010528564453125e-12,
+        1e-12,
+        1.984832763671875e-12,
+        3.1048300415277482e-12,
+        7.0328369140625e-12
+      ]
+    },
+    "math": {
+      "mean": [
+        0.03058435221464606,
+        0.0707559585571289,
+        0.08247027889592573,
+        0.24041366577148438,
+        0.1201782257121522,
+        0.3354682922363281,
+        0.12152500444790348,
+        0.40008544921875,
+        0.17718446376966313,
+        0.6371917724609375,
+        0.3206201730063185,
+        1.10882568359375,
+        0.516638157190755,
+        1.58099365234375,
+        3.1193512734025717,
+        6.7266845703125
+      ],
+      "population_std": [
+        0.001410132645225007,
+        0.004646354414255414,
+        0.0019986114101023435,
+        0.0060476788883915234,
+        0.003216134942184126,
+        0.007000150340391791,
+        0.0022151136524381394,
+        0.007630859234401994,
+        0.0025722991743734117,
+        0.00892114729761238,
+        0.00654600074341922,
+        0.030822633044317493,
+        0.01716092089581385,
+        0.082445077206621,
+        0.12009574872574867,
+        0.2879981731631699
+      ],
+      "active_dimensions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "constant_threshold": [
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1e-12,
+        1.10882568359375e-12,
+        1e-12,
+        1.58099365234375e-12,
+        3.1193512734025716e-12,
+        6.7266845703124995e-12
+      ]
+    }
+  },
+  "selection_trace": {
+    "general": [
+      {
+        "step": 1,
+        "added_id": "general-077",
+        "maximum_nearest_distance": 9.222833946791278
+      },
+      {
+        "step": 2,
+        "added_id": "general-179",
+        "maximum_nearest_distance": 8.736132720175505
+      },
+      {
+        "step": 3,
+        "added_id": "general-120",
+        "maximum_nearest_distance": 7.879509656829234
+      },
+      {
+        "step": 4,
+        "added_id": "general-061",
+        "maximum_nearest_distance": 6.644286149338134
+      },
+      {
+        "step": 5,
+        "added_id": "general-128",
+        "maximum_nearest_distance": 6.602400905610325
+      },
+      {
+        "step": 6,
+        "added_id": "general-187",
+        "maximum_nearest_distance": 6.103724076708823
+      },
+      {
+        "step": 7,
+        "added_id": "general-244",
+        "maximum_nearest_distance": 6.031611557986041
+      },
+      {
+        "step": 8,
+        "added_id": "general-157",
+        "maximum_nearest_distance": 5.876999001017184
+      },
+      {
+        "step": 9,
+        "added_id": "general-062",
+        "maximum_nearest_distance": 5.6193419119345815
+      },
+      {
+        "step": 10,
+        "added_id": "general-228",
+        "maximum_nearest_distance": 5.474291037656299
+      },
+      {
+        "step": 11,
+        "added_id": "general-206",
+        "maximum_nearest_distance": 5.2469812491625945
+      },
+      {
+        "step": 12,
+        "added_id": "general-030",
+        "maximum_nearest_distance": 5.234787471125411
+      },
+      {
+        "step": 13,
+        "added_id": "general-136",
+        "maximum_nearest_distance": 5.12253425938575
+      },
+      {
+        "step": 14,
+        "added_id": "general-076",
+        "maximum_nearest_distance": 5.048392220481018
+      },
+      {
+        "step": 15,
+        "added_id": "general-013",
+        "maximum_nearest_distance": 4.980226781240691
+      },
+      {
+        "step": 16,
+        "added_id": "general-223",
+        "maximum_nearest_distance": 4.974895512157105
+      }
+    ],
+    "math": [
+      {
+        "step": 1,
+        "added_id": "math-155",
+        "maximum_nearest_distance": 7.67258137139318
+      },
+      {
+        "step": 2,
+        "added_id": "math-172",
+        "maximum_nearest_distance": 7.357581889389827
+      },
+      {
+        "step": 3,
+        "added_id": "math-196",
+        "maximum_nearest_distance": 7.137702092125721
+      },
+      {
+        "step": 4,
+        "added_id": "math-109",
+        "maximum_nearest_distance": 7.110286698735654
+      },
+      {
+        "step": 5,
+        "added_id": "math-242",
+        "maximum_nearest_distance": 6.991994594211595
+      },
+      {
+        "step": 6,
+        "added_id": "math-071",
+        "maximum_nearest_distance": 6.33242799417944
+      },
+      {
+        "step": 7,
+        "added_id": "math-237",
+        "maximum_nearest_distance": 6.082440982544206
+      },
+      {
+        "step": 8,
+        "added_id": "math-231",
+        "maximum_nearest_distance": 6.055949146666977
+      },
+      {
+        "step": 9,
+        "added_id": "math-110",
+        "maximum_nearest_distance": 5.440399710861991
+      },
+      {
+        "step": 10,
+        "added_id": "math-096",
+        "maximum_nearest_distance": 5.234515052110086
+      },
+      {
+        "step": 11,
+        "added_id": "math-223",
+        "maximum_nearest_distance": 5.214165750223824
+      },
+      {
+        "step": 12,
+        "added_id": "math-007",
+        "maximum_nearest_distance": 5.178440061025161
+      },
+      {
+        "step": 13,
+        "added_id": "math-225",
+        "maximum_nearest_distance": 5.079383624051886
+      },
+      {
+        "step": 14,
+        "added_id": "math-058",
+        "maximum_nearest_distance": 5.019275681201145
+      },
+      {
+        "step": 15,
+        "added_id": "math-175",
+        "maximum_nearest_distance": 4.874182744486115
+      },
+      {
+        "step": 16,
+        "added_id": "math-033",
+        "maximum_nearest_distance": 4.847399964268302
+      }
+    ]
+  },
+  "sequence_ids": [
+    "general-077",
+    "math-155",
+    "general-179",
+    "math-172",
+    "general-120",
+    "math-196",
+    "general-061",
+    "math-109",
+    "general-128",
+    "math-242",
+    "general-187",
+    "math-071",
+    "general-244",
+    "math-237",
+    "general-157",
+    "math-231",
+    "general-062",
+    "math-110",
+    "general-228",
+    "math-096",
+    "general-206",
+    "math-223",
+    "general-030",
+    "math-007",
+    "general-136",
+    "math-225",
+    "general-076",
+    "math-058",
+    "general-013",
+    "math-175",
+    "general-223",
+    "math-033"
+  ],
+  "sequences": 32,
+  "tokens": 16384,
+  "file": "selected32.jsonl",
+  "sha256": "aa940387ad05849e6b9ccf67f6ca76998ef8cacc884dbb3d7e54f131efc9cca6"
+}

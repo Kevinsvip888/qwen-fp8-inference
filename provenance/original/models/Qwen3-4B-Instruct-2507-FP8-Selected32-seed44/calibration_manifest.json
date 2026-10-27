@@ -1,0 +1,495 @@
+{
+  "activation_amax": {
+    "model.layers.0.mlp.down_proj.input_quantizer": 8.3125,
+    "model.layers.0.mlp.gate_proj.input_quantizer": 1.8984375,
+    "model.layers.0.mlp.up_proj.input_quantizer": 1.8984375,
+    "model.layers.0.self_attn.k_proj.input_quantizer": 0.9453125,
+    "model.layers.0.self_attn.o_proj.input_quantizer": 0.78515625,
+    "model.layers.0.self_attn.q_proj.input_quantizer": 0.9453125,
+    "model.layers.0.self_attn.v_proj.input_quantizer": 0.9453125,
+    "model.layers.1.mlp.down_proj.input_quantizer": 59.75,
+    "model.layers.1.mlp.gate_proj.input_quantizer": 53.75,
+    "model.layers.1.mlp.up_proj.input_quantizer": 53.75,
+    "model.layers.1.self_attn.k_proj.input_quantizer": 1.25,
+    "model.layers.1.self_attn.o_proj.input_quantizer": 0.6328125,
+    "model.layers.1.self_attn.q_proj.input_quantizer": 1.25,
+    "model.layers.1.self_attn.v_proj.input_quantizer": 1.25,
+    "model.layers.10.mlp.down_proj.input_quantizer": 24.625,
+    "model.layers.10.mlp.gate_proj.input_quantizer": 12.1875,
+    "model.layers.10.mlp.up_proj.input_quantizer": 12.1875,
+    "model.layers.10.self_attn.k_proj.input_quantizer": 19.875,
+    "model.layers.10.self_attn.o_proj.input_quantizer": 4.375,
+    "model.layers.10.self_attn.q_proj.input_quantizer": 19.875,
+    "model.layers.10.self_attn.v_proj.input_quantizer": 19.875,
+    "model.layers.11.mlp.down_proj.input_quantizer": 23.375,
+    "model.layers.11.mlp.gate_proj.input_quantizer": 13.6875,
+    "model.layers.11.mlp.up_proj.input_quantizer": 13.6875,
+    "model.layers.11.self_attn.k_proj.input_quantizer": 12.9375,
+    "model.layers.11.self_attn.o_proj.input_quantizer": 3.53125,
+    "model.layers.11.self_attn.q_proj.input_quantizer": 12.9375,
+    "model.layers.11.self_attn.v_proj.input_quantizer": 12.9375,
+    "model.layers.12.mlp.down_proj.input_quantizer": 45.5,
+    "model.layers.12.mlp.gate_proj.input_quantizer": 14.125,
+    "model.layers.12.mlp.up_proj.input_quantizer": 14.125,
+    "model.layers.12.self_attn.k_proj.input_quantizer": 14.0,
+    "model.layers.12.self_attn.o_proj.input_quantizer": 3.0625,
+    "model.layers.12.self_attn.q_proj.input_quantizer": 14.0,
+    "model.layers.12.self_attn.v_proj.input_quantizer": 14.0,
+    "model.layers.13.mlp.down_proj.input_quantizer": 32.25,
+    "model.layers.13.mlp.gate_proj.input_quantizer": 16.5,
+    "model.layers.13.mlp.up_proj.input_quantizer": 16.5,
+    "model.layers.13.self_attn.k_proj.input_quantizer": 11.25,
+    "model.layers.13.self_attn.o_proj.input_quantizer": 18.25,
+    "model.layers.13.self_attn.q_proj.input_quantizer": 11.25,
+    "model.layers.13.self_attn.v_proj.input_quantizer": 11.25,
+    "model.layers.14.mlp.down_proj.input_quantizer": 60.0,
+    "model.layers.14.mlp.gate_proj.input_quantizer": 18.75,
+    "model.layers.14.mlp.up_proj.input_quantizer": 18.75,
+    "model.layers.14.self_attn.k_proj.input_quantizer": 17.25,
+    "model.layers.14.self_attn.o_proj.input_quantizer": 10.25,
+    "model.layers.14.self_attn.q_proj.input_quantizer": 17.25,
+    "model.layers.14.self_attn.v_proj.input_quantizer": 17.25,
+    "model.layers.15.mlp.down_proj.input_quantizer": 46.5,
+    "model.layers.15.mlp.gate_proj.input_quantizer": 21.375,
+    "model.layers.15.mlp.up_proj.input_quantizer": 21.375,
+    "model.layers.15.self_attn.k_proj.input_quantizer": 21.125,
+    "model.layers.15.self_attn.o_proj.input_quantizer": 25.0,
+    "model.layers.15.self_attn.q_proj.input_quantizer": 21.125,
+    "model.layers.15.self_attn.v_proj.input_quantizer": 21.125,
+    "model.layers.16.mlp.down_proj.input_quantizer": 4064.0,
+    "model.layers.16.mlp.gate_proj.input_quantizer": 37.0,
+    "model.layers.16.mlp.up_proj.input_quantizer": 37.0,
+    "model.layers.16.self_attn.k_proj.input_quantizer": 27.875,
+    "model.layers.16.self_attn.o_proj.input_quantizer": 22.25,
+    "model.layers.16.self_attn.q_proj.input_quantizer": 27.875,
+    "model.layers.16.self_attn.v_proj.input_quantizer": 27.875,
+    "model.layers.17.mlp.down_proj.input_quantizer": 13.0,
+    "model.layers.17.mlp.gate_proj.input_quantizer": 16.375,
+    "model.layers.17.mlp.up_proj.input_quantizer": 16.375,
+    "model.layers.17.self_attn.k_proj.input_quantizer": 27.875,
+    "model.layers.17.self_attn.o_proj.input_quantizer": 17.25,
+    "model.layers.17.self_attn.q_proj.input_quantizer": 27.875,
+    "model.layers.17.self_attn.v_proj.input_quantizer": 27.875,
+    "model.layers.18.mlp.down_proj.input_quantizer": 67.0,
+    "model.layers.18.mlp.gate_proj.input_quantizer": 15.8125,
+    "model.layers.18.mlp.up_proj.input_quantizer": 15.8125,
+    "model.layers.18.self_attn.k_proj.input_quantizer": 34.5,
+    "model.layers.18.self_attn.o_proj.input_quantizer": 5.375,
+    "model.layers.18.self_attn.q_proj.input_quantizer": 34.5,
+    "model.layers.18.self_attn.v_proj.input_quantizer": 34.5,
+    "model.layers.19.mlp.down_proj.input_quantizer": 18.0,
+    "model.layers.19.mlp.gate_proj.input_quantizer": 14.875,
+    "model.layers.19.mlp.up_proj.input_quantizer": 14.875,
+    "model.layers.19.self_attn.k_proj.input_quantizer": 42.75,
+    "model.layers.19.self_attn.o_proj.input_quantizer": 5.625,
+    "model.layers.19.self_attn.q_proj.input_quantizer": 42.75,
+    "model.layers.19.self_attn.v_proj.input_quantizer": 42.75,
+    "model.layers.2.mlp.down_proj.input_quantizer": 520.0,
+    "model.layers.2.mlp.gate_proj.input_quantizer": 91.0,
+    "model.layers.2.mlp.up_proj.input_quantizer": 91.0,
+    "model.layers.2.self_attn.k_proj.input_quantizer": 2.015625,
+    "model.layers.2.self_attn.o_proj.input_quantizer": 0.60546875,
+    "model.layers.2.self_attn.q_proj.input_quantizer": 2.015625,
+    "model.layers.2.self_attn.v_proj.input_quantizer": 2.015625,
+    "model.layers.20.mlp.down_proj.input_quantizer": 23.5,
+    "model.layers.20.mlp.gate_proj.input_quantizer": 16.25,
+    "model.layers.20.mlp.up_proj.input_quantizer": 16.25,
+    "model.layers.20.self_attn.k_proj.input_quantizer": 42.5,
+    "model.layers.20.self_attn.o_proj.input_quantizer": 4.9375,
+    "model.layers.20.self_attn.q_proj.input_quantizer": 42.5,
+    "model.layers.20.self_attn.v_proj.input_quantizer": 42.5,
+    "model.layers.21.mlp.down_proj.input_quantizer": 147.0,
+    "model.layers.21.mlp.gate_proj.input_quantizer": 15.5625,
+    "model.layers.21.mlp.up_proj.input_quantizer": 15.5625,
+    "model.layers.21.self_attn.k_proj.input_quantizer": 50.5,
+    "model.layers.21.self_attn.o_proj.input_quantizer": 6.5,
+    "model.layers.21.self_attn.q_proj.input_quantizer": 50.5,
+    "model.layers.21.self_attn.v_proj.input_quantizer": 50.5,
+    "model.layers.22.mlp.down_proj.input_quantizer": 34.75,
+    "model.layers.22.mlp.gate_proj.input_quantizer": 18.125,
+    "model.layers.22.mlp.up_proj.input_quantizer": 18.125,
+    "model.layers.22.self_attn.k_proj.input_quantizer": 59.75,
+    "model.layers.22.self_attn.o_proj.input_quantizer": 14.6875,
+    "model.layers.22.self_attn.q_proj.input_quantizer": 59.75,
+    "model.layers.22.self_attn.v_proj.input_quantizer": 59.75,
+    "model.layers.23.mlp.down_proj.input_quantizer": 43.75,
+    "model.layers.23.mlp.gate_proj.input_quantizer": 23.375,
+    "model.layers.23.mlp.up_proj.input_quantizer": 23.375,
+    "model.layers.23.self_attn.k_proj.input_quantizer": 56.25,
+    "model.layers.23.self_attn.o_proj.input_quantizer": 6.875,
+    "model.layers.23.self_attn.q_proj.input_quantizer": 56.25,
+    "model.layers.23.self_attn.v_proj.input_quantizer": 56.25,
+    "model.layers.24.mlp.down_proj.input_quantizer": 59.75,
+    "model.layers.24.mlp.gate_proj.input_quantizer": 25.125,
+    "model.layers.24.mlp.up_proj.input_quantizer": 25.125,
+    "model.layers.24.self_attn.k_proj.input_quantizer": 69.0,
+    "model.layers.24.self_attn.o_proj.input_quantizer": 8.125,
+    "model.layers.24.self_attn.q_proj.input_quantizer": 69.0,
+    "model.layers.24.self_attn.v_proj.input_quantizer": 69.0,
+    "model.layers.25.mlp.down_proj.input_quantizer": 90.0,
+    "model.layers.25.mlp.gate_proj.input_quantizer": 27.75,
+    "model.layers.25.mlp.up_proj.input_quantizer": 27.75,
+    "model.layers.25.self_attn.k_proj.input_quantizer": 59.75,
+    "model.layers.25.self_attn.o_proj.input_quantizer": 8.0625,
+    "model.layers.25.self_attn.q_proj.input_quantizer": 59.75,
+    "model.layers.25.self_attn.v_proj.input_quantizer": 59.75,
+    "model.layers.26.mlp.down_proj.input_quantizer": 88.0,
+    "model.layers.26.mlp.gate_proj.input_quantizer": 30.5,
+    "model.layers.26.mlp.up_proj.input_quantizer": 30.5,
+    "model.layers.26.self_attn.k_proj.input_quantizer": 71.5,
+    "model.layers.26.self_attn.o_proj.input_quantizer": 10.0,
+    "model.layers.26.self_attn.q_proj.input_quantizer": 71.5,
+    "model.layers.26.self_attn.v_proj.input_quantizer": 71.5,
+    "model.layers.27.mlp.down_proj.input_quantizer": 103.0,
+    "model.layers.27.mlp.gate_proj.input_quantizer": 31.0,
+    "model.layers.27.mlp.up_proj.input_quantizer": 31.0,
+    "model.layers.27.self_attn.k_proj.input_quantizer": 79.0,
+    "model.layers.27.self_attn.o_proj.input_quantizer": 11.0,
+    "model.layers.27.self_attn.q_proj.input_quantizer": 79.0,
+    "model.layers.27.self_attn.v_proj.input_quantizer": 79.0,
+    "model.layers.28.mlp.down_proj.input_quantizer": 117.5,
+    "model.layers.28.mlp.gate_proj.input_quantizer": 30.75,
+    "model.layers.28.mlp.up_proj.input_quantizer": 30.75,
+    "model.layers.28.self_attn.k_proj.input_quantizer": 90.0,
+    "model.layers.28.self_attn.o_proj.input_quantizer": 10.375,
+    "model.layers.28.self_attn.q_proj.input_quantizer": 90.0,
+    "model.layers.28.self_attn.v_proj.input_quantizer": 90.0,
+    "model.layers.29.mlp.down_proj.input_quantizer": 124.5,
+    "model.layers.29.mlp.gate_proj.input_quantizer": 32.5,
+    "model.layers.29.mlp.up_proj.input_quantizer": 32.5,
+    "model.layers.29.self_attn.k_proj.input_quantizer": 103.5,
+    "model.layers.29.self_attn.o_proj.input_quantizer": 17.625,
+    "model.layers.29.self_attn.q_proj.input_quantizer": 103.5,
+    "model.layers.29.self_attn.v_proj.input_quantizer": 103.5,
+    "model.layers.3.mlp.down_proj.input_quantizer": 152.0,
+    "model.layers.3.mlp.gate_proj.input_quantizer": 71.5,
+    "model.layers.3.mlp.up_proj.input_quantizer": 71.5,
+    "model.layers.3.self_attn.k_proj.input_quantizer": 2.765625,
+    "model.layers.3.self_attn.o_proj.input_quantizer": 0.9296875,
+    "model.layers.3.self_attn.q_proj.input_quantizer": 2.765625,
+    "model.layers.3.self_attn.v_proj.input_quantizer": 2.765625,
+    "model.layers.30.mlp.down_proj.input_quantizer": 134.0,
+    "model.layers.30.mlp.gate_proj.input_quantizer": 31.625,
+    "model.layers.30.mlp.up_proj.input_quantizer": 31.625,
+    "model.layers.30.self_attn.k_proj.input_quantizer": 104.5,
+    "model.layers.30.self_attn.o_proj.input_quantizer": 19.375,
+    "model.layers.30.self_attn.q_proj.input_quantizer": 104.5,
+    "model.layers.30.self_attn.v_proj.input_quantizer": 104.5,
+    "model.layers.31.mlp.down_proj.input_quantizer": 181.0,
+    "model.layers.31.mlp.gate_proj.input_quantizer": 28.75,
+    "model.layers.31.mlp.up_proj.input_quantizer": 28.75,
+    "model.layers.31.self_attn.k_proj.input_quantizer": 128.0,
+    "model.layers.31.self_attn.o_proj.input_quantizer": 20.75,
+    "model.layers.31.self_attn.q_proj.input_quantizer": 128.0,
+    "model.layers.31.self_attn.v_proj.input_quantizer": 128.0,
+    "model.layers.32.mlp.down_proj.input_quantizer": 215.0,
+    "model.layers.32.mlp.gate_proj.input_quantizer": 29.25,
+    "model.layers.32.mlp.up_proj.input_quantizer": 29.25,
+    "model.layers.32.self_attn.k_proj.input_quantizer": 144.0,
+    "model.layers.32.self_attn.o_proj.input_quantizer": 30.375,
+    "model.layers.32.self_attn.q_proj.input_quantizer": 144.0,
+    "model.layers.32.self_attn.v_proj.input_quantizer": 144.0,
+    "model.layers.33.mlp.down_proj.input_quantizer": 163.0,
+    "model.layers.33.mlp.gate_proj.input_quantizer": 36.0,
+    "model.layers.33.mlp.up_proj.input_quantizer": 36.0,
+    "model.layers.33.self_attn.k_proj.input_quantizer": 198.0,
+    "model.layers.33.self_attn.o_proj.input_quantizer": 54.5,
+    "model.layers.33.self_attn.q_proj.input_quantizer": 198.0,
+    "model.layers.33.self_attn.v_proj.input_quantizer": 198.0,
+    "model.layers.34.mlp.down_proj.input_quantizer": 1616.0,
+    "model.layers.34.mlp.gate_proj.input_quantizer": 109.0,
+    "model.layers.34.mlp.up_proj.input_quantizer": 109.0,
+    "model.layers.34.self_attn.k_proj.input_quantizer": 187.0,
+    "model.layers.34.self_attn.o_proj.input_quantizer": 55.25,
+    "model.layers.34.self_attn.q_proj.input_quantizer": 187.0,
+    "model.layers.34.self_attn.v_proj.input_quantizer": 187.0,
+    "model.layers.35.mlp.down_proj.input_quantizer": 1216.0,
+    "model.layers.35.mlp.gate_proj.input_quantizer": 390.0,
+    "model.layers.35.mlp.up_proj.input_quantizer": 390.0,
+    "model.layers.35.self_attn.k_proj.input_quantizer": 176.0,
+    "model.layers.35.self_attn.o_proj.input_quantizer": 47.75,
+    "model.layers.35.self_attn.q_proj.input_quantizer": 176.0,
+    "model.layers.35.self_attn.v_proj.input_quantizer": 176.0,
+    "model.layers.4.mlp.down_proj.input_quantizer": 25.25,
+    "model.layers.4.mlp.gate_proj.input_quantizer": 45.0,
+    "model.layers.4.mlp.up_proj.input_quantizer": 45.0,
+    "model.layers.4.self_attn.k_proj.input_quantizer": 3.546875,
+    "model.layers.4.self_attn.o_proj.input_quantizer": 1.0859375,
+    "model.layers.4.self_attn.q_proj.input_quantizer": 3.546875,
+    "model.layers.4.self_attn.v_proj.input_quantizer": 3.546875,
+    "model.layers.5.mlp.down_proj.input_quantizer": 21.125,
+    "model.layers.5.mlp.gate_proj.input_quantizer": 19.0,
+    "model.layers.5.mlp.up_proj.input_quantizer": 19.0,
+    "model.layers.5.self_attn.k_proj.input_quantizer": 3.875,
+    "model.layers.5.self_attn.o_proj.input_quantizer": 1.515625,
+    "model.layers.5.self_attn.q_proj.input_quantizer": 3.875,
+    "model.layers.5.self_attn.v_proj.input_quantizer": 3.875,
+    "model.layers.6.mlp.down_proj.input_quantizer": 3792.0,
+    "model.layers.6.mlp.gate_proj.input_quantizer": 145.0,
+    "model.layers.6.mlp.up_proj.input_quantizer": 145.0,
+    "model.layers.6.self_attn.k_proj.input_quantizer": 7.4375,
+    "model.layers.6.self_attn.o_proj.input_quantizer": 1.734375,
+    "model.layers.6.self_attn.q_proj.input_quantizer": 7.4375,
+    "model.layers.6.self_attn.v_proj.input_quantizer": 7.4375,
+    "model.layers.7.mlp.down_proj.input_quantizer": 34.75,
+    "model.layers.7.mlp.gate_proj.input_quantizer": 33.0,
+    "model.layers.7.mlp.up_proj.input_quantizer": 33.0,
+    "model.layers.7.self_attn.k_proj.input_quantizer": 10.25,
+    "model.layers.7.self_attn.o_proj.input_quantizer": 2.46875,
+    "model.layers.7.self_attn.q_proj.input_quantizer": 10.25,
+    "model.layers.7.self_attn.v_proj.input_quantizer": 10.25,
+    "model.layers.8.mlp.down_proj.input_quantizer": 22.25,
+    "model.layers.8.mlp.gate_proj.input_quantizer": 11.8125,
+    "model.layers.8.mlp.up_proj.input_quantizer": 11.8125,
+    "model.layers.8.self_attn.k_proj.input_quantizer": 11.1875,
+    "model.layers.8.self_attn.o_proj.input_quantizer": 2.609375,
+    "model.layers.8.self_attn.q_proj.input_quantizer": 11.1875,
+    "model.layers.8.self_attn.v_proj.input_quantizer": 11.1875,
+    "model.layers.9.mlp.down_proj.input_quantizer": 26.5,
+    "model.layers.9.mlp.gate_proj.input_quantizer": 12.9375,
+    "model.layers.9.mlp.up_proj.input_quantizer": 12.9375,
+    "model.layers.9.self_attn.k_proj.input_quantizer": 13.1875,
+    "model.layers.9.self_attn.o_proj.input_quantizer": 2.75,
+    "model.layers.9.self_attn.q_proj.input_quantizer": 13.1875,
+    "model.layers.9.self_attn.v_proj.input_quantizer": 13.1875
+  },
+  "calibration_seconds": 6.973036717623472,
+  "export_files": [
+    {
+      "bytes": 2630,
+      "path": "chat_template.jinja",
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+    },
+    {
+      "bytes": 2570,
+      "path": "config.json",
+      "sha256": "223a36525d6585ba6a1758088af7e62800e0ecef374b3a450b738bfd2d0f116f"
+    },
+    {
+      "bytes": 213,
+      "path": "generation_config.json",
+      "sha256": "90d5a7739ed47fa2dcacceac8cbd245b369ce514a41f19dd562a4083d8608e36"
+    },
+    {
+      "bytes": 273,
+      "path": "hf_quant_config.json",
+      "sha256": "e709b5418fe8a4d3b8a3fe7b2d29f9a7c30e173ec2a5217ea4e31d37ac7989e3"
+    },
+    {
+      "bytes": 4411718392,
+      "path": "model.safetensors",
+      "sha256": "f870430abc3157c043e1f24029f253cac0f67e2ab9cf0032eddc5912a7acfc63"
+    },
+    {
+      "bytes": 11422650,
+      "path": "tokenizer.json",
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+    },
+    {
+      "bytes": 693,
+      "path": "tokenizer_config.json",
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f"
+    }
+  ],
+  "export_seconds": 5.990566223859787,
+  "identity": {
+    "calibration_sequences": 32,
+    "calibration_tokens": 16384,
+    "method": "Selected32",
+    "pool_seed": 44,
+    "pool_sha256": "547e4d04c9d4fa0b5e09e0a5a128bec54677ece2f5a978a9a8ea492646c4f138",
+    "protocol_sha256": "aaca5144109cec26410a142939d5d65e69551bbb8990dd5d1267ec8b25528e9c",
+    "sequence_ids": [
+      "general-088",
+      "math-181",
+      "general-228",
+      "math-197",
+      "general-043",
+      "math-001",
+      "general-046",
+      "math-231",
+      "general-219",
+      "math-225",
+      "general-051",
+      "math-122",
+      "general-180",
+      "math-088",
+      "general-071",
+      "math-000",
+      "general-201",
+      "math-062",
+      "general-109",
+      "math-020",
+      "general-208",
+      "math-121",
+      "general-194",
+      "math-199",
+      "general-159",
+      "math-143",
+      "general-230",
+      "math-032",
+      "general-238",
+      "math-055",
+      "general-207",
+      "math-195"
+    ],
+    "subset_sha256": "75dca06d4e3fc49fb7a1c6f7ea67109980fadbf70a8dc7c5d68f1c012ef8fdf1"
+  },
+  "protocol": {
+    "attention_backend": "eager",
+    "batch_size": 1,
+    "model_dtype": "bfloat16",
+    "packages": {
+      "nvidia-modelopt": "0.47.0",
+      "safetensors": "0.8.0",
+      "torch": "2.13.0+cu132",
+      "transformers": "5.14.1"
+    },
+    "recipe": {
+      "algorithm": "max",
+      "quant_cfg": [
+        {
+          "enable": false,
+          "quantizer_name": "*"
+        },
+        {
+          "cfg": {
+            "axis": null,
+            "num_bits": [
+              4,
+              3
+            ],
+            "type": "static"
+          },
+          "quantizer_name": "*weight_quantizer"
+        },
+        {
+          "cfg": {
+            "axis": null,
+            "num_bits": [
+              4,
+              3
+            ],
+            "type": "static"
+          },
+          "quantizer_name": "*input_quantizer"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*block_sparse_moe.gate*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*linear_attn.conv1d*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*self_attention.conv1d*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*linear_attn.in_proj_a*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*linear_attn.in_proj_b*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*lm_head*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*mixer.conv1d*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*mlp.gate.*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*mlp.shared_expert_gate.*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*output_layer*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*proj_out.*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*router*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "mtp.*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "output.*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*embed_vision*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*vision_tower*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*visual*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*vision_model*"
+        },
+        {
+          "enable": false,
+          "quantizer_name": "*multi_modal_projector*"
+        },
+        {
+          "enable": false,
+          "parent_class": "nn.BatchNorm1d",
+          "quantizer_name": "*"
+        },
+        {
+          "enable": false,
+          "parent_class": "nn.BatchNorm2d",
+          "quantizer_name": "*"
+        },
+        {
+          "enable": false,
+          "parent_class": "nn.BatchNorm3d",
+          "quantizer_name": "*"
+        },
+        {
+          "enable": false,
+          "parent_class": "nn.LeakyReLU",
+          "quantizer_name": "*"
+        },
+        {
+          "enable": false,
+          "parent_class": "nn.Embedding",
+          "quantizer_name": "*"
+        }
+      ]
+    },
+    "sequence_length": 512,
+    "source": {
+      "local_dir": "/root/autodl-tmp/qwen-inference-lab/models/Qwen3-4B-Instruct-2507",
+      "repo_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"
+    },
+    "torch_seed": 42,
+    "use_cache": false
+  },
+  "safetensors_bytes": 4411718392,
+  "tensor_counts_by_dtype": {
+    "BF16": 146,
+    "F32": 504,
+    "F8_E4M3": 252
+  }
+}

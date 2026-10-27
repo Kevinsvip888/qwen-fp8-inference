@@ -1,0 +1,151 @@
+{
+  "attention_backend": "eager",
+  "batch_size": 1,
+  "model_dtype": "bfloat16",
+  "packages": {
+    "nvidia-modelopt": "0.47.0",
+    "safetensors": "0.8.0",
+    "torch": "2.13.0+cu132",
+    "transformers": "5.14.1"
+  },
+  "recipe": {
+    "algorithm": "max",
+    "quant_cfg": [
+      {
+        "enable": false,
+        "quantizer_name": "*"
+      },
+      {
+        "cfg": {
+          "axis": null,
+          "num_bits": [
+            4,
+            3
+          ],
+          "type": "static"
+        },
+        "quantizer_name": "*weight_quantizer"
+      },
+      {
+        "cfg": {
+          "axis": null,
+          "num_bits": [
+            4,
+            3
+          ],
+          "type": "static"
+        },
+        "quantizer_name": "*input_quantizer"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*block_sparse_moe.gate*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*linear_attn.conv1d*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*self_attention.conv1d*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*linear_attn.in_proj_a*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*linear_attn.in_proj_b*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*lm_head*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*mixer.conv1d*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*mlp.gate.*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*mlp.shared_expert_gate.*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*output_layer*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*proj_out.*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*router*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "mtp.*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "output.*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*embed_vision*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*vision_tower*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*visual*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*vision_model*"
+      },
+      {
+        "enable": false,
+        "quantizer_name": "*multi_modal_projector*"
+      },
+      {
+        "enable": false,
+        "parent_class": "nn.BatchNorm1d",
+        "quantizer_name": "*"
+      },
+      {
+        "enable": false,
+        "parent_class": "nn.BatchNorm2d",
+        "quantizer_name": "*"
+      },
+      {
+        "enable": false,
+        "parent_class": "nn.BatchNorm3d",
+        "quantizer_name": "*"
+      },
+      {
+        "enable": false,
+        "parent_class": "nn.LeakyReLU",
+        "quantizer_name": "*"
+      },
+      {
+        "enable": false,
+        "parent_class": "nn.Embedding",
+        "quantizer_name": "*"
+      }
+    ]
+  },
+  "sequence_length": 512,
+  "source": {
+    "local_dir": "/root/autodl-tmp/qwen-inference-lab/models/Qwen3-4B-Instruct-2507",
+    "repo_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"
+  },
+  "torch_seed": 42,
+  "use_cache": false
+}

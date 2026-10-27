@@ -1,0 +1,54 @@
+{
+  "definition_version": 1,
+  "script_sha256": "24dc130e8acf2cada835ca048987fdebbb23e2f602a1a5c7dbe3be410841cb00",
+  "pool_sha256": "023d58cbf23e1ac769c957a49232f9bd2ec339b3dc943345165c7d38d74b449c",
+  "pool_seed": 43,
+  "model_source": {
+    "repo_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "local_dir": "/root/autodl-tmp/qwen-inference-lab/models/Qwen3-4B-Instruct-2507"
+  },
+  "layers": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+  ],
+  "feature_names": [
+    "layer_00_rms",
+    "layer_00_abs_p99",
+    "layer_05_rms",
+    "layer_05_abs_p99",
+    "layer_10_rms",
+    "layer_10_abs_p99",
+    "layer_15_rms",
+    "layer_15_abs_p99",
+    "layer_20_rms",
+    "layer_20_abs_p99",
+    "layer_25_rms",
+    "layer_25_abs_p99",
+    "layer_30_rms",
+    "layer_30_abs_p99",
+    "layer_35_rms",
+    "layer_35_abs_p99"
+  ],
+  "observed_tensor": "input to model.layers[i].mlp.down_proj",
+  "statistics": {
+    "rms": "sqrt(mean(x.float() ** 2)) over all elements",
+    "abs_p99": "exact quantile(abs(x.float()), 0.99), linear interpolation"
+  },
+  "model_dtype": "bfloat16",
+  "attention_backend": "eager",
+  "batch_size": 1,
+  "sequence_length": 512,
+  "use_cache": false,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "packages": {
+    "torch": "2.13.0+cu132",
+    "transformers": "5.14.1"
+  }
+}

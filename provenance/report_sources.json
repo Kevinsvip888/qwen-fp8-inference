@@ -1,0 +1,9 @@
+{
+  "day4_summary.json": "outputs/evaluation/gsm8k_dev_v1/three_seed_summary.json",
+  "day5_report.md": "outputs/benchmark/day5/formal_v1/day5_report.md",
+  "day5_summary.json": "outputs/benchmark/day5/formal_v1/day5_summary.json",
+  "day6_report.md": "outputs/profiling/day6/day6_report.md",
+  "day6_summary.json": "outputs/profiling/day6/day6_summary.json",
+  "day7_report.md": "outputs/evaluation/day7_quality_v1/final/day7_report.md",
+  "day7_summary.json": "outputs/evaluation/day7_quality_v1/final/day7_summary.json"
+}

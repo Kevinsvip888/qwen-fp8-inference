@@ -1,0 +1,88 @@
+{
+  "seed": 42,
+  "sequence_length": 512,
+  "total_sequences": 512,
+  "total_tokens": 262144,
+  "domains": {
+    "general": {
+      "sequences": 256,
+      "tokens": 131072,
+      "source_rows_used": 916
+    },
+    "math": {
+      "sequences": 256,
+      "tokens": 131072,
+      "source_rows_used": 701
+    }
+  },
+  "source_datasets": {
+    "general": {
+      "repo_id": "Salesforce/wikitext",
+      "config": "wikitext-103-raw-v1",
+      "split": "train",
+      "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+      "rows": 1801350,
+      "columns": [
+        "text"
+      ],
+      "files": [
+        {
+          "path": "data/raw/general/wikitext-103-raw-v1/train-00000-of-00002.parquet",
+          "bytes": 156987808,
+          "sha256": "74da360f23826045b3e6ac6375411fdb15f003030aa74f2596ed08b857cb9212"
+        },
+        {
+          "path": "data/raw/general/wikitext-103-raw-v1/train-00001-of-00002.parquet",
+          "bytes": 157088770,
+          "sha256": "ba090ac30dbf5461e8dcbdd1a1b8e6f3cf9c2c756d64f0c1220450acd514f720"
+        }
+      ]
+    },
+    "math": {
+      "repo_id": "openai/gsm8k",
+      "config": "main",
+      "split": "train",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "rows": 7473,
+      "columns": [
+        "question",
+        "answer"
+      ],
+      "files": [
+        {
+          "path": "data/raw/math/main/train-00000-of-00001.parquet",
+          "bytes": 2306545,
+          "sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d"
+        }
+      ]
+    }
+  },
+  "model_source": {
+    "repo_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "local_dir": "/root/autodl-tmp/qwen-inference-lab/models/Qwen3-4B-Instruct-2507"
+  },
+  "math_split_sha256": "eb0ec14ac969161e2e311e2287aed8b60d25ba0f26c49aff18c2eed286e96503",
+  "tokenizer_files_sha256": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3"
+  },
+  "eos_token_id": 151645,
+  "packing": {
+    "general": "stripped nonempty rows, excluding rows starting with =",
+    "math": "Question: {question}\\nAnswer: {answer}",
+    "separator": "one tokenizer EOS token after each record",
+    "windows": "consecutive nonoverlapping windows within each domain",
+    "padding": false,
+    "unused_tail": "discarded after each domain reaches its quota",
+    "deduplication": "skip repeated whitespace-normalized records encountered",
+    "attention": "standard causal attention across packed record boundaries"
+  },
+  "python": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+  "packages": {
+    "datasets": "5.1.0",
+    "transformers": "5.14.1",
+    "tokenizers": "0.22.2"
+  },
+  "pool_sha256": "2e7617c9373418c024716f768436cb79ad75dbfc48bdf10b25abad340a889241"
+}

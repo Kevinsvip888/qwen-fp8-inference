@@ -1,0 +1,24 @@
+{
+  "final_plan_sha256": "1bd1f014f7409f32e93347cbd25e39eca79a782a614acd0234a5ed7c003e4558",
+  "preparation_sha256": "1ddf3a16aad32e1273d90b2e0ba7dd0d84f9e0edd281051c396fc9ca405faa95",
+  "gpu_uuid_name_driver": [
+    "GPU-8e98a7a3-27fc-5dc2-9294-3033328821ad",
+    "NVIDIA GeForce RTX 4090",
+    "580.76.05"
+  ],
+  "serve_versions": {
+    "torch": "2.13.0+cu132",
+    "vllm": "0.32.0",
+    "transformers": "5.19.0"
+  },
+  "evaluation_versions": {
+    "datasets": "5.1.0",
+    "huggingface_hub": "2.3.0",
+    "lm_eval": "0.4.13",
+    "transformers": "5.19.0"
+  },
+  "api_concurrency": 1,
+  "tokenized_requests": true,
+  "add_bos_token": false,
+  "generation_seed": 42
+}

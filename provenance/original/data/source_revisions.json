@@ -1,0 +1,42 @@
+{
+  "general": {
+    "repo_id": "Salesforce/wikitext",
+    "config": "wikitext-103-raw-v1",
+    "split": "train",
+    "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+    "rows": 1801350,
+    "columns": [
+      "text"
+    ],
+    "files": [
+      {
+        "path": "data/raw/general/wikitext-103-raw-v1/train-00000-of-00002.parquet",
+        "bytes": 156987808,
+        "sha256": "74da360f23826045b3e6ac6375411fdb15f003030aa74f2596ed08b857cb9212"
+      },
+      {
+        "path": "data/raw/general/wikitext-103-raw-v1/train-00001-of-00002.parquet",
+        "bytes": 157088770,
+        "sha256": "ba090ac30dbf5461e8dcbdd1a1b8e6f3cf9c2c756d64f0c1220450acd514f720"
+      }
+    ]
+  },
+  "math": {
+    "repo_id": "openai/gsm8k",
+    "config": "main",
+    "split": "train",
+    "revision": "740312add88f781978c0658806c59bc2815b9866",
+    "rows": 7473,
+    "columns": [
+      "question",
+      "answer"
+    ],
+    "files": [
+      {
+        "path": "data/raw/math/main/train-00000-of-00001.parquet",
+        "bytes": 2306545,
+        "sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d"
+      }
+    ]
+  }
+}

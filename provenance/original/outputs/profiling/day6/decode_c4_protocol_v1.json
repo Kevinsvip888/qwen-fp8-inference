@@ -1,0 +1,22 @@
+{
+  "client_script_sha256": "a7f22dad5ed43ae7be5a841e1a293e4fe5d3cd0674d0bafa571c8faf1301adfa",
+  "concurrency": 4,
+  "delay_iterations": 16,
+  "expected_phase_annotation": "execute_context_0(0)_generation_4(4)",
+  "gpu_uuid": "GPU-da0e682c-68a8-c840-d8a7-81e529a186b6",
+  "input_tokens_per_request": 1024,
+  "interpretation": "Fixed-prompt GPU profiling workload. Kernel sums are not end-to-end latency or the exact Day 5 synthetic prompt set.",
+  "max_iterations": 8,
+  "output_tokens_per_request": 128,
+  "packages": {
+    "torch": "2.13.0+cu132",
+    "transformers": "5.19.0",
+    "vllm": "0.32.0"
+  },
+  "parent_protocol_sha256": "f6698e02877db4c4c034c8a54f98a16ee7c8416ad38056203dc8493d0c7a6d1c",
+  "phase": "steady_decode_c4",
+  "request_sha256": "5dbce64dd7ef392312ba2fec4ae6e01ca3fde44d63d544de1f1828530e27e033",
+  "requests_per_batch": 4,
+  "version": 1,
+  "warmup_batches": 4
+}

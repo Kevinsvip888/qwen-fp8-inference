@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+.pytest_cache/
+
+# Downloaded data, weights, and generated artifacts
+/data/
+/models/
+/logs/
+/outputs/
+/backups/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+.netrc
+.git-credentials
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.swp
+*~

@@ -1,0 +1,40 @@
+task: day7_arc_challenge_test
+dataset_path: json
+dataset_name: null
+output_type: multiple_choice
+training_split: null
+validation_split: null
+test_split: test
+doc_to_text: 'Question: {{question}}
+
+  Answer:'
+doc_to_target: '{{choices.label.index(answerKey)}}'
+doc_to_choice: '{{choices.text}}'
+should_decontaminate: false
+doc_to_decontamination_query: 'Question: {{question}}
+
+  Answer:'
+metric_list:
+- metric: acc
+  aggregation: mean
+  higher_is_better: true
+- metric: acc_norm
+  aggregation: mean
+  higher_is_better: true
+metadata:
+  version: 1.0
+  study: day7_final_quality_v1
+  scope: official_test
+  final_plan_sha256: 1bd1f014f7409f32e93347cbd25e39eca79a782a614acd0234a5ed7c003e4558
+dataset_kwargs:
+  data_files:
+    test: /root/autodl-tmp/qwen-inference-lab/data/evaluation/day7_quality_v1/final/arc_challenge_test.jsonl
+fewshot_split: null
+target_delimiter: ' '
+fewshot_delimiter: '
+
+
+  '
+num_fewshot: 0
+fewshot_config:
+  sampler: first_n

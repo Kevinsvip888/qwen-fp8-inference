@@ -1,0 +1,34 @@
+{
+  "capture_intent": "One requested prefill iteration; eight requested decode iterations after skipping eight engine iterations.",
+  "client_script_sha256": "be33493799fda56834b07794919676498ba1efbc1cce98263d27b8fb04568f35",
+  "concurrency": 1,
+  "fp8_manifest_sha256": "6488c60ab30ff9f7750b68c8eb38fad20164c005c8f84a4e800906acd99115d4",
+  "gpu_uuid": "GPU-da0e682c-68a8-c840-d8a7-81e529a186b6",
+  "input_tokens": 1024,
+  "interpretation": "Phase boundaries must be checked using saved annotation/trace evidence. GPU kernel sums are not end-to-end latency.",
+  "output_tokens": 128,
+  "packages": {
+    "torch": "2.13.0+cu132",
+    "transformers": "5.19.0",
+    "vllm": "0.32.0"
+  },
+  "request_sha256": "5dbce64dd7ef392312ba2fec4ae6e01ca3fde44d63d544de1f1828530e27e033",
+  "server_script_sha256": "7a48006d880757dce4203d78c61cb435edbe320ddaa90da80592faa951b26d31",
+  "source_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "tokenizer_files_sha256": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3"
+  },
+  "version": 1,
+  "warmup_requests": 4,
+  "windows": {
+    "decode": [
+      8,
+      8
+    ],
+    "prefill": [
+      0,
+      1
+    ]
+  }
+}

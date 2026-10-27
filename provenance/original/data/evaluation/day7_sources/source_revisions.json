@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "datasets": {
+    "gsm8k": {
+      "repo_id": "openai/gsm8k",
+      "config": "main",
+      "splits": [
+        "train",
+        "test"
+      ],
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "complete": true,
+      "files": [
+        {
+          "repository_path": "main/test-00000-of-00001.parquet",
+          "split": "test",
+          "path": "data/evaluation/day7_sources/raw/gsm8k/main/test-00000-of-00001.parquet",
+          "bytes": 419088,
+          "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+          "rows": 1319
+        },
+        {
+          "repository_path": "main/train-00000-of-00001.parquet",
+          "split": "train",
+          "path": "data/evaluation/day7_sources/raw/gsm8k/main/train-00000-of-00001.parquet",
+          "bytes": 2306545,
+          "sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+          "rows": 7473
+        }
+      ],
+      "repository_files": [
+        "main/test-00000-of-00001.parquet",
+        "main/train-00000-of-00001.parquet"
+      ]
+    },
+    "arc_challenge": {
+      "repo_id": "allenai/ai2_arc",
+      "config": "ARC-Challenge",
+      "splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "revision": "210d026faf9955653af8916fad021475a3f00453",
+      "complete": true,
+      "files": [
+        {
+          "repository_path": "ARC-Challenge/test-00000-of-00001.parquet",
+          "split": "test",
+          "path": "data/evaluation/day7_sources/raw/arc_challenge/ARC-Challenge/test-00000-of-00001.parquet",
+          "bytes": 203808,
+          "sha256": "62f03257e737aed263f55c6abf87c7bb0028a44a6bdd2a26eb1279eb42c1d1e9",
+          "rows": 1172
+        },
+        {
+          "repository_path": "ARC-Challenge/train-00000-of-00001.parquet",
+          "split": "train",
+          "path": "data/evaluation/day7_sources/raw/arc_challenge/ARC-Challenge/train-00000-of-00001.parquet",
+          "bytes": 189909,
+          "sha256": "e488c1587ffdcfc8443f916c53488a95cd471c5790e0746c6bfe4cecf20962cb",
+          "rows": 1119
+        },
+        {
+          "repository_path": "ARC-Challenge/validation-00000-of-00001.parquet",
+          "split": "validation",
+          "path": "data/evaluation/day7_sources/raw/arc_challenge/ARC-Challenge/validation-00000-of-00001.parquet",
+          "bytes": 55743,
+          "sha256": "395a5c88d1580d69855fbaee9450270578df1ad5af6259771cd0a42c20e99f05",
+          "rows": 299
+        }
+      ],
+      "repository_files": [
+        "ARC-Challenge/test-00000-of-00001.parquet",
+        "ARC-Challenge/train-00000-of-00001.parquet",
+        "ARC-Challenge/validation-00000-of-00001.parquet"
+      ]
+    }
+  }
+}
