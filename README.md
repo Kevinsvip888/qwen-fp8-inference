@@ -1,4 +1,4 @@
-# Qwen FP8 Inference Lab
+# Qwen FP8 Inference
 
 Measured FP8 quantization, serving performance, GPU kernel behavior, and answer quality for **Qwen3-4B-Instruct-2507 on an RTX 4090 24 GB**.
 
